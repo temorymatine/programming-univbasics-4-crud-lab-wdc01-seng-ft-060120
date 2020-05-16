@@ -3,15 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-  bunny=["mouse", "rabbit", "squid", "wolf"]
+  bunny=[1, 2, 3, 4]
 end
 
 def add_element_to_end_of_array(array, element)
-  bunny << "fox"
+  bunny << 1
 end
 
 def add_element_to_start_of_array(array, element)
-  bunny.unshift("grass")
+  bunny.unshift(2)
 end
 
 def remove_element_from_end_of_array(array)
@@ -35,5 +35,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-bunny[1]= ["crab"]
+bunny[1]= 6
 end
